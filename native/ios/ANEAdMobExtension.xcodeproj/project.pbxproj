@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890FFA4C14E85ABA00A3085D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890FFA4B14E85AB900A3085D /* SystemConfiguration.framework */; };
+		890FFA4E14E85AC400A3085D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890FFA4D14E85AC400A3085D /* AudioToolbox.framework */; };
+		890FFA5014E85ACA00A3085D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890FFA4F14E85ACA00A3085D /* MessageUI.framework */; };
+		89FB529814E595ED00C06DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FB529714E595ED00C06DF1 /* Foundation.framework */; };
+		89FB529E14E595ED00C06DF1 /* ANEAdMobExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB529D14E595ED00C06DF1 /* ANEAdMobExtension.m */; };
+		89FB52A514E5971C00C06DF1 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52A414E5971C00C06DF1 /* FlashRuntimeExtensions.h */; };
+		89FB52B014E598F800C06DF1 /* GADBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AA14E598F800C06DF1 /* GADBannerView.h */; };
+		89FB52B114E598F800C06DF1 /* GADBannerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AB14E598F800C06DF1 /* GADBannerViewDelegate.h */; };
+		89FB52B214E598F800C06DF1 /* GADInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AC14E598F800C06DF1 /* GADInterstitial.h */; };
+		89FB52B314E598F800C06DF1 /* GADInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AD14E598F800C06DF1 /* GADInterstitialDelegate.h */; };
+		89FB52B414E598F800C06DF1 /* GADRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AE14E598F800C06DF1 /* GADRequest.h */; };
+		89FB52B514E598F800C06DF1 /* GADRequestError.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB52AF14E598F800C06DF1 /* GADRequestError.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		890FFA4B14E85AB900A3085D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		890FFA4D14E85AC400A3085D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		890FFA4F14E85ACA00A3085D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		89FB529414E595ED00C06DF1 /* libANEAdMobExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANEAdMobExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FB529714E595ED00C06DF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89FB529B14E595ED00C06DF1 /* ANEAdMobExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANEAdMobExtension-Prefix.pch"; sourceTree = "<group>"; };
+		89FB529C14E595ED00C06DF1 /* ANEAdMobExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANEAdMobExtension.h; sourceTree = "<group>"; };
+		89FB529D14E595ED00C06DF1 /* ANEAdMobExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANEAdMobExtension.m; sourceTree = "<group>"; };
+		89FB52A414E5971C00C06DF1 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		89FB52AA14E598F800C06DF1 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		89FB52AB14E598F800C06DF1 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		89FB52AC14E598F800C06DF1 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		89FB52AD14E598F800C06DF1 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		89FB52AE14E598F800C06DF1 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		89FB52AF14E598F800C06DF1 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FB529114E595ED00C06DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890FFA5014E85ACA00A3085D /* MessageUI.framework in Frameworks */,
+				890FFA4E14E85AC400A3085D /* AudioToolbox.framework in Frameworks */,
+				890FFA4C14E85ABA00A3085D /* SystemConfiguration.framework in Frameworks */,
+				89FB529814E595ED00C06DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89FB528914E595ED00C06DF1 = {
+			isa = PBXGroup;
+			children = (
+				89FB52A414E5971C00C06DF1 /* FlashRuntimeExtensions.h */,
+				89FB529914E595ED00C06DF1 /* ANEAdMobExtension */,
+				89FB529614E595ED00C06DF1 /* Frameworks */,
+				89FB529514E595ED00C06DF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89FB529514E595ED00C06DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FB529414E595ED00C06DF1 /* libANEAdMobExtension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89FB529614E595ED00C06DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				890FFA4F14E85ACA00A3085D /* MessageUI.framework */,
+				890FFA4D14E85AC400A3085D /* AudioToolbox.framework */,
+				890FFA4B14E85AB900A3085D /* SystemConfiguration.framework */,
+				89FB529714E595ED00C06DF1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89FB529914E595ED00C06DF1 /* ANEAdMobExtension */ = {
+			isa = PBXGroup;
+			children = (
+				89FB52A914E598E900C06DF1 /* AdMob */,
+				89FB529C14E595ED00C06DF1 /* ANEAdMobExtension.h */,
+				89FB529D14E595ED00C06DF1 /* ANEAdMobExtension.m */,
+				89FB529A14E595ED00C06DF1 /* Supporting Files */,
+			);
+			path = ANEAdMobExtension;
+			sourceTree = "<group>";
+		};
+		89FB529A14E595ED00C06DF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FB529B14E595ED00C06DF1 /* ANEAdMobExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89FB52A914E598E900C06DF1 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				89FB52AA14E598F800C06DF1 /* GADBannerView.h */,
+				89FB52AB14E598F800C06DF1 /* GADBannerViewDelegate.h */,
+				89FB52AC14E598F800C06DF1 /* GADInterstitial.h */,
+				89FB52AD14E598F800C06DF1 /* GADInterstitialDelegate.h */,
+				89FB52AE14E598F800C06DF1 /* GADRequest.h */,
+				89FB52AF14E598F800C06DF1 /* GADRequestError.h */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89FB529214E595ED00C06DF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FB52A514E5971C00C06DF1 /* FlashRuntimeExtensions.h in Headers */,
+				89FB52B014E598F800C06DF1 /* GADBannerView.h in Headers */,
+				89FB52B114E598F800C06DF1 /* GADBannerViewDelegate.h in Headers */,
+				89FB52B214E598F800C06DF1 /* GADInterstitial.h in Headers */,
+				89FB52B314E598F800C06DF1 /* GADInterstitialDelegate.h in Headers */,
+				89FB52B414E598F800C06DF1 /* GADRequest.h in Headers */,
+				89FB52B514E598F800C06DF1 /* GADRequestError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89FB529314E595ED00C06DF1 /* ANEAdMobExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FB52A114E595ED00C06DF1 /* Build configuration list for PBXNativeTarget "ANEAdMobExtension" */;
+			buildPhases = (
+				89FB529014E595ED00C06DF1 /* Sources */,
+				89FB529114E595ED00C06DF1 /* Frameworks */,
+				89FB529214E595ED00C06DF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANEAdMobExtension;
+			productName = ANEAdMobExtension;
+			productReference = 89FB529414E595ED00C06DF1 /* libANEAdMobExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89FB528B14E595ED00C06DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 89FB528E14E595ED00C06DF1 /* Build configuration list for PBXProject "ANEAdMobExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89FB528914E595ED00C06DF1;
+			productRefGroup = 89FB529514E595ED00C06DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89FB529314E595ED00C06DF1 /* ANEAdMobExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89FB529014E595ED00C06DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FB529E14E595ED00C06DF1 /* ANEAdMobExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89FB529F14E595ED00C06DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89FB52A014E595ED00C06DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89FB52A214E595ED00C06DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEAdMobExtension.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEAdMobExtension/ANEAdMobExtension-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ANEAdMobExtension\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		89FB52A314E595ED00C06DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEAdMobExtension.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEAdMobExtension/ANEAdMobExtension-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ANEAdMobExtension\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89FB528E14E595ED00C06DF1 /* Build configuration list for PBXProject "ANEAdMobExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FB529F14E595ED00C06DF1 /* Debug */,
+				89FB52A014E595ED00C06DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FB52A114E595ED00C06DF1 /* Build configuration list for PBXNativeTarget "ANEAdMobExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FB52A214E595ED00C06DF1 /* Debug */,
+				89FB52A314E595ED00C06DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89FB528B14E595ED00C06DF1 /* Project object */;
+}
