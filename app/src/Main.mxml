@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="160">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.tnker.ane.AdMob;
+			private var admob:AdMob = new AdMob();
+			private function clicked(event:MouseEvent):void
+			{
+				admob.admobInitialize("");
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 非ビジュアルエレメント (サービス、値オブジェクトなど) をここに配置 -->
+	</fx:Declarations>
+	
+	<s:Button x="130" y="201" label="show" click="clicked(event)"/>
+	
+</s:Application>
