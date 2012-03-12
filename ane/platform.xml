@@ -1,0 +1,10 @@
+<platform xmlns="http://ns.adobe.com/air/extension/3.1">
+	<sdkVersion>4.3</sdkVersion>
+    <linkerOptions>
+        <!-- to use the MessageUI framework -->
+        <option>-ios_version_min 4.3</option>
+        <option>-framework MessageUI</option>
+        <option>-L/Users/tnker/Documents/Xcode\ Workspace/ANEAdMobExtension/ANEAdMobExtension</option>
+        <option>-lGoogleAdMobAds</option>
+    </linkerOptions>
+</platform>

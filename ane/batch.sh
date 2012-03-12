@@ -1,0 +1,1 @@
+adt -package -target ane ANEAdMobExtension.ane extension.xml -swc ANEAdMobExtension.swc -platform iPhone-ARM -platformoptions platform.xml -C iPhone-ARM . -platform Android-ARM -C Android-ARM . -platform default -C default .
